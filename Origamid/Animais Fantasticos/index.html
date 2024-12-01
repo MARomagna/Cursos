@@ -10,21 +10,22 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=IBM+Plex+Mono&family=Playfair+Display+SC&family=Roboto&display=swap" rel="stylesheet">
+ <script>document.documentElement.className += ' js'</script>
  <title>Animais Fantásticos</title>
 </head>
 
 <body>
- <nav class="menu">
+ <nav class="menu js-menu">
   <ul>
    <li><a href="#animais">Animais</a></li>
    <li><a href="#faq">Faq</a></li>
-   <li><a href="@contato">Contato</a></li>
+   <li><a href="#contato">Contato</a></li>
    <li><a href="https://www.MarcoRomagna.com">Dev →</a></li>
   </ul>
  </nav>
- <section class="grid-section animais" id="animais">
+ <section class="grid-section animais js-scroll" id="animais">
   <h1 class="titulo">Animais Fantásticos</h1>
-  <ul class="animais-lista">
+  <ul class="animais-lista js-tabmenu">
    <li><img src="./img/imagem1.jpg" alt="Raposa"></li>
    <li><img src="./img/imagem2.jpg" alt="Esquilo"></li>
    <li><img src="./img/imagem3.jpg" alt="Urso"></li>
@@ -32,7 +33,7 @@
    <li><img src="./img/imagem5.jpg" alt="Macaco"></li>
    <li><img src="./img/imagem6.jpg" alt="Leao"></li>
   </ul>
-  <div class="animais-descricao">
+  <div class="animais-descricao js-tabcontent">
    <section>
     <h2>Raposa</h2>
     <p>Raposa ou rabosa têm origem do Latim rapu- (rabo), que nela é bem desenvolvida e peluda, possível vê-la de longe. Já golpelha é derivado de vulpicŭla, diminutivo de vulpes, raposa em Latim.</p>
@@ -82,20 +83,20 @@
    </section>
   </div>
  </section>
- <section class="grid-section faq" id="faq">
+ <section class="grid-section faq js-scroll" id="faq">
   <h1 class="titulo">FAQ</h1>
-  <dl class="faq-lista">
+  <dl class="faq-lista js-accordion">
    <dt>Animais podem transmitir doenças?</dt>
    <dd>Podem, o Lobo pode transmitir brucelose, febre, carbúnculo, leptospirose, parvovirose, cinomose e obviamente a Raiva.</dd>
    <dt>Quem descreveu o Leão?</dt>
    <dd>O leão foi descrito no século XVIII por Carolus Linnaeus, em seu Systema Naturae, como Felis leo.</dd>
    <dt>Todos Ursos são carnivoros?</dt>
    <dd>Embora o urso polar é principalmente carnívoro e o panda gigante se alimenta quase inteiramente de bambu, as seis espécies restantes são onívoras com dietas variadas</dd>
-   <dt>Onde teve aa orgiem da palavra Esquilo?</dt>
+   <dt>Qual a origem da palavra Esquilo?</dt>
    <dd>"Esquilo" é uma palavra com origem no termo grego skioúros."Caxinguelê" é oriundo do termo quimbundo kaxinjiang'elê, que significa "rato de palmeira". "Quatimirim" origina-se do termo tupi kwa'ti mi'rim, que significa "quati pequeno". "Acutipuru", "agutipuru" e "quatipuru" vêm do termo tupi acutipu'ru, que significa "cutia enfeitada"</dd>
   </dl>
  </section>
- <section class="grid-section contato" id="contato">
+ <section class="grid-section contato js-scroll" id="contato">
   <h1 class="titulo">Contato</h1>
   <div class="mapa"><img src="./img/mapa.png" alt="mapa"></div>
   <ul class="dados">
